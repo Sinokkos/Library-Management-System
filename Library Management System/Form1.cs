@@ -31,6 +31,7 @@ namespace Library_Management_System
             else
             {
                 //don't login
+                label4.Show();
             }
         }
 
