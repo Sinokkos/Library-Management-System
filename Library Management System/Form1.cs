@@ -48,5 +48,10 @@ namespace Library_Management_System
         {
             Application.Exit();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
