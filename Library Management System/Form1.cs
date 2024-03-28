@@ -19,7 +19,19 @@ namespace Library_Management_System
 
         private void button1_Click(object sender, EventArgs e)
         {
+            String Uname = "1", Upass = "1", name, pass;
+            name= textBox1.Text;
+            pass = textBox2.Text;
 
+            if (name.Equals(Uname) && pass.Equals(Upass))
+            {
+                //login
+                MessageBox.Show("Login in success");
+            }
+            else
+            {
+                //don't login
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
